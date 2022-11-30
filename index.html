@@ -6,28 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <script defer src="index.js"> </script> 
 </head>
 <body>
    <header>
-        <nav class="navbar">
-            <img class="logo" src="image\bourse.png" alt="">
-            <ul class="ul">
-                <li>Accueil</li>
-                <li>Parrainner</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
+    <div class="logo">
+      <img src="image\bourse.png" alt="" />
+    </div>
+    <!-- menu burger -->
+
+    <div class="menu-mobile">
+      <button class="btn">
+        <div class="barre"></div>
+        <div class="barre"></div>
+        <div class="barre"></div>
+      </button>
+      <nav class="mobile">
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#"> Nos produits</a></li>
+          <li><a href="#">Á propos de nous</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Nous contactez</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- menu desktop -->
+    <nav class="desktop">
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#"> Nos produits</a></li>
+        <li><a href="#">Á propos de nous</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Nous contactez</a></li>
+      </ul>
+    </nav>
    </header>
    <main>
         <section class="content">  
-            <div class="content-news"> news</div> 
+            <div class="content-news"> <h1>Actualité bourse du monde</h1>
+              <h2> Issa Traore </h2>
+              <p>Voici l'actualité d'issa, grâce à votre parrainage il à pu obtenir son baccalauréat avec mention bien et est actuellement en 1ére année de fac de droit.
+             </p>
+             <h2> Marie N'dieye </h2>
+             <p>Voici l'actualité de Marie, grâce à votre parrainage elle à pu valider sa 3éme année de fac d'anglais et à obtenu un visa pour poursuivre ses études à l'étranger.
+             </p>
+             <h2>Moussa Diop</h2>
+             <p>Voici l'actualité de Moussa, grâce à votre parrainage il à pu continuer sa 2éme année en école de commerce et continue son parcour avec de trés bon résultat au 1er semestre.
+             </p>
+            </div> 
             <div class="contentmixte">
             <div class="content-photo" photo> 
-                <img class="content-photo" src="image\afrique2.jpg" alt=""> </div>
+                <img class="content-photo1" src="image\monde.jpg" alt=""> </div>
             <div class="content-title"> 
                 <h1> Bourse du monde </h1> 
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia unde quis quidem, quisquam nulla dolor saepe repudiandae minima laborum praesentium ipsum corporis laudantium, deserunt reprehenderit veritatis pariatur! Sed, ut accusamus.</p>
-            </div>
+                    <p>En nous soutenant, vous contribuez à la réalisation des études de nos élèves.
+                      Parrainer un étudiant, c’est contribuer à changer sa vie et celle de sa communauté. C’est aussi une occasion unique de partager une expérience riche de sens avec un étudiant à l'autre bout du monde..</p>
+                    <a href="https://www.helloasso.com/associations/bourse-du-monde/formulaires/1" class="button1">Participer</a>
+                  </div>
             
             </div>
         </section>
@@ -40,14 +77,31 @@
                   <div class="f-img">
                     <img
                       class="f-img"
-                      src="https://th.bing.com/th/id/R.1e13acac77d0a414ebc273251d49c657?rik=2AwY2uf7Y5HVuQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-N3t9hsN3MjQ%2fT71suBNrzRI%2fAAAAAAAAAHQ%2fXyC6Ky1moaA%2fs1600%2fDSCN0599.jpg&ehk=6aCQcHNhDJFBFU8oHJOfg23nm7wxCtpOpnPD6gvjrWU%3d&risl=&pid=ImgRaw&r=0"
+                      src="\image\photo3.jpg"
                       alt=""
                     />
                   </div>
       
                   <div class="f-text">
                     <h3>Récolte de fourniture</h3>
-                                  <a href="#" class="button">Participer</a>
+                                  <a href="https://www.helloasso.com/associations/bourse-du-monde/formulaires/1" class="button">Participer</a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="feature-container">
+                <div class="feature-box">
+                  <div class="f-img">
+                    <img
+                      class="f-img"
+                      src="\image\photo2.jpg"
+                      alt=""
+                    />
+                  </div>
+      
+                  <div class="f-text">
+                    <h3>Parrainer un éléve</h3>
+                    <a href="https://www.helloasso.com/associations/bourse-du-monde/formulaires/1" class="button">Parrainer</a>
                   </div>
                 </div>
               </div>
@@ -63,40 +117,36 @@
                   </div>
       
                   <div class="f-text">
-                    <h3>Récolte de fourniture</h3>
-                    <a href="#" class="button">Parrainer</a>
-                  </div>
-                </div>
-              </div>
-      
-              <div class="feature-container">
-                <div class="feature-box">
-                  <div class="f-img">
-                    <img
-                      class="f-img"
-                      src="https://th.bing.com/th/id/R.1e13acac77d0a414ebc273251d49c657?rik=2AwY2uf7Y5HVuQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-N3t9hsN3MjQ%2fT71suBNrzRI%2fAAAAAAAAAHQ%2fXyC6Ky1moaA%2fs1600%2fDSCN0599.jpg&ehk=6aCQcHNhDJFBFU8oHJOfg23nm7wxCtpOpnPD6gvjrWU%3d&risl=&pid=ImgRaw&r=0"
-                      alt=""
-                    />
-                  </div>
-      
-                  <div class="f-text">
-                    <h3>Récolte de fourniture</h3>
-                    <a href="#" class="button">Participer</a>
+                    <h3>Collecte de dons</h3>
+                    <a href="https://www.helloasso.com/associations/bourse-du-monde/formulaires/1" class="button">Faire un don</a>
                   </div>
                 </div>
               </div>
             </div>
           </section>
 
-          <section>
-            <form action="">formulaire</form>
+          <hr>
+
+          <section id="contact">
+            <div class="container">
+            <div class="title3">
+              <h6> Contactez-Nous </h6>
+            </div>
+            <form action="#" method="post">
+              <input type="text" name="Nom" placeholder="Entrez votre nom" required="">
+              <input type="email" name="Email" placeholder="Entrez votre mail" required="">
+              <input type="text" name="Sujet" placeholder="Entre votre sujet" required="">
+              <input type="number" name="Numéro" placeholder="Entrez votre numéro" required="">
+              <textarea name="message" placeholder="Entrer votre message"></textarea>
+              <button type="submit">Envoyer</button>
+            </form>
+            </div>
         </section>
     </main>
-
+<section>
 <footer>
 
-    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, animi. Laborum, asperiores sit? Distinctio quis, est repudiandae totam dicta commodi. Voluptates laudantium iste mollitia eius reprehenderit, saepe alias quibusdam harum?</h6>
-    <ul>
+    <ul class="footer">
         <li>Mentions légales</li>
         <li>Confidentialité</li>
         <li>Tout droit réservé </li>
@@ -104,6 +154,6 @@
  
 
 </footer>
-   
+</section>
 </body>
 </html>
